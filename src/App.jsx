@@ -1,14 +1,15 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import ObjectState from './useState/ObjectState'
+import FetchProductDetails from './useEffect/FetchProductDetails'
+
 
 function App() {
 
 
   return (
-    <>
-      <ObjectState />
-    </>
+    <div className='container '>
+      <FetchProductDetails />
+    </div>
   )
 }
 
