@@ -1,6 +1,5 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import FetchProductDetails from './useEffect/FetchProductDetails'
 
 
 function App() {
@@ -8,7 +7,8 @@ function App() {
 
   return (
     <div className='container '>
-      <FetchProductDetails />
+      Hooks Parctice
+   
     </div>
   )
 }
